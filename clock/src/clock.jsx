@@ -19,8 +19,4 @@ function Clock() {
 }
 
 export default Clock;
-// | Dependency Array    | Behavior                           |
-// | ------------------- | ---------------------------------- |
-// | `[]`                | Run only once (after first render) |
-// | `[someVar]`         | Run when `someVar` changes         |
-// | *(no array at all)* | Run on **every render**            |
+
